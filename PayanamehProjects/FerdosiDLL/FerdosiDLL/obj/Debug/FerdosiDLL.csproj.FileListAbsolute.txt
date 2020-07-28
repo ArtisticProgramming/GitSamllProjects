@@ -1,0 +1,10 @@
+c:\users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\FerdosiDLL.exe.config
+c:\users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\FerdosiDLL.exe
+c:\users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\FerdosiDLL.pdb
+c:\users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\obj\Debug\FerdosiDLL.csprojResolveAssemblyReference.cache
+c:\users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\obj\Debug\FerdosiDLL.exe
+c:\users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\obj\Debug\FerdosiDLL.pdb
+C:\Users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\EntityFramework.dll
+C:\Users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\EntityFramework.xml
+C:\Users\jafar\documents\visual studio 2015\Projects\FerdosiDLL\FerdosiDLL\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1596036451 source:c:\home\gitsamllprojects\codeblock\pointers\pointers\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

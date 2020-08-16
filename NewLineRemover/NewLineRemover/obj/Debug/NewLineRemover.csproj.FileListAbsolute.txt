@@ -1,0 +1,11 @@
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\bin\Debug\NewLineRemover.exe.config
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\bin\Debug\NewLineRemover.exe
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\bin\Debug\NewLineRemover.pdb
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.Form1.resources
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.Properties.Resources.resources
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.csproj.GenerateResource.Cache
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.exe
+c:\users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.pdb
+C:\Users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\bin\Debug\scriptTempl.sql
+C:\Users\jafar\documents\visual studio 2015\Projects\NewLineRemover\NewLineRemover\bin\Debug\XmlModel\AppConfig.xml
+C:\Users\jafar\Documents\Visual Studio 2015\Projects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.csprojResolveAssemblyReference.cache

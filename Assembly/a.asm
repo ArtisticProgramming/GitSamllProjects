@@ -17,8 +17,8 @@ print:
     ret
 
 _start:
-    mov rsi, db "SS",10
-    mov rdx, 3
+    mov rsi, msg2
+    mov rdx, len2
     call print
     mov rax, 60
     mov rdi, 0

@@ -1,0 +1,3 @@
+rv * -ea SilentlyContinue; rmo *; $error.Clear(); cls
+
+Remove-Variable * -ErrorAction SilentlyContinue; Remove-Module *; $error.Clear(); Clear-Host

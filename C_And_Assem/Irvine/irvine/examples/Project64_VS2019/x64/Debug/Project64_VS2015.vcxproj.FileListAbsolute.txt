@@ -1,0 +1,2 @@
+C:\home\GitSamllProjects\C_And_Assem\Irvine\irvine\examples\Project64_VS2019\x64\Debug\Project.exe
+C:\home\GitSamllProjects\C_And_Assem\Irvine\irvine\examples\Project64_VS2019\x64\Debug\Project.pdb

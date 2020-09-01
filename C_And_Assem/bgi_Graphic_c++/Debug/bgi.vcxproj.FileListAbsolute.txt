@@ -1,0 +1,2 @@
+C:\Users\sun\Desktop\bgi\Debug\bgi.exe
+C:\Users\sun\Desktop\bgi\Debug\bgi.pdb

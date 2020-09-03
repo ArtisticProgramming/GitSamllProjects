@@ -286,6 +286,8 @@ namespace NewLineRemover
 
             File.WriteAllText(sgPathTxt.Text + "\\" + sgLastSqlNumber.Text, templText);
 
+            MessageBox.Show("Finished successfully","Result",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
             //try
             //{
             //    Process.Start(sgPathTxt.Text);

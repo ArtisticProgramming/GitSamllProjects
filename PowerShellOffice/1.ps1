@@ -1,8 +1,8 @@
 ﻿param ($GetActionData,$IGetActionQuery, $ActionQueryParam )
 
 #***************  Global paramters  *********************
-$projectFile= "D:\CodeGeneratorTemplate\TempFolder\"
-$tmplateBasePath = "D:\CodeGeneratorTemplate\Templates\"
+$projectFile= "C:\temp\TempFolder\"
+$tmplateBasePath = "C:\temp\Templates\"
 $GetActionData_tempName="GetActionData"
 $currentDateTime=Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
 $directoryPath="$currentDateTime" + "_List" 
@@ -39,14 +39,14 @@ $EntryGetActionData_fileFullName = $tmplateBasePath + $GetActionData_tempName+".
 $GetActionData_fileFullName = $directoryPath+"\"+ $GetActionData_tempName+".cs"
 
 ################################################################_EXECUTION_###################################
-#write-host $ActionQueryParam "gf" " -f " $GetActionData_fileFullName  " -t " $EntryGetActionData_fileFullName " -p " $projectfile " -a " $GetActionDataArguments
+write-host "ccg.exe" "gf" " -f " $GetActionData_fileFullName  " -t " $EntryGetActionData_fileFullName " -p " $projectfile " -a " $GetActionDataArguments
 
-D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gf -f $GetActionData_fileFullName  -t $EntryGetActionData_fileFullName -p $projectfile -a $GetActionDataArguments
+ccg.exe gf -f $GetActionData_fileFullName  -t $EntryGetActionData_fileFullName -p $projectfile -a $GetActionDataArguments
 
 type ($projectFile + $GetActionData_fileFullName)
 
 ###--Open Folder---###
-#Invoke-Item ($projectFile + $directoryPath)
+Invoke-Item ($projectFile + $directoryPath)
 
 
 
@@ -63,18 +63,18 @@ type ($projectFile + $GetActionData_fileFullName)
 write-host "----------------------------------------"
 
 #--------Check User Paramters----------
-if([string]::IsNullOrEmpty($GetActionData))
-{
-  $GetActionData = Read-Host -Prompt 'Input your GetActionData '
-}
+# if([string]::IsNullOrEmpty($GetActionData))
+# {
+#   $GetActionData = Read-Host -Prompt 'Input your GetActionData '
+# }
 
-if([string]::IsNullOrEmpty($IGetActionQuery))
-{
- $IGetActionQuery = Read-Host -Prompt 'Input your IGetActionQuery '
-}
+# if([string]::IsNullOrEmpty($IGetActionQuery))
+# {
+#  $IGetActionQuery = Read-Host -Prompt 'Input your IGetActionQuery '
+# }
 
-if([string]::IsNullOrEmpty($ActionQueryParam))
-{
- $ActionQueryParam = Read-Host -Prompt 'Input your ActionQueryParam '
-}
+# if([string]::IsNullOrEmpty($ActionQueryParam))
+# {
+#  $ActionQueryParam = Read-Host -Prompt 'Input your ActionQueryParam '
+# }
 

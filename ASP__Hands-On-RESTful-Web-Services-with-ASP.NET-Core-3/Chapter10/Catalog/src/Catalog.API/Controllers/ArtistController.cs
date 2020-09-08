@@ -60,5 +60,6 @@ namespace Catalog.API.Controllers
             var result = await _artistService.AddArtistAsync(request);
             return CreatedAtAction(nameof(GetById), new { id = result.ArtistId }, null);
         }
+
     }
 }

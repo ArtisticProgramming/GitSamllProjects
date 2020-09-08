@@ -1,9 +1,21 @@
-import subprocess, sys
+import ExecuterModule as exe
+import Utilities as util
 
-str = "ccg.exe gf  -f  'sdfsdfsdfsfsdf_List\\GetActionData.cs'  -t  'C:\\temp\\Templates\\GetActionData.txt'  -p  'C:\\temp\\TempFolder\\'  -a  GetActionData:Hello,IGetActionQuery:Hellao,ActionQueryParam:Hello"
+print(__name__)
 
-process= subprocess.Popen(["powershell",str],stdout=subprocess.PIPE);
-result=process.communicate()[0]
-print (result)
+BaseName = input("Enter Base Name: ") 
+print(BaseName)
+OutPutBasePath=  exe.GlobalOption.OutPutBasePath
 
+TemplatePath = exe.GlobalOption.TemplatePath+"GetActionData.txt"
+OutPutPath =util.GeneratetCurrentDateTime()+'\\'+"Get"+BaseName+"Data.cs"
 
+paramArray =[]
+paramArray.append(exe.MakeParam("Get"+BaseName+"Data" ,"1"))  
+paramArray.append(exe.MakeParam("IGet"+BaseName+"Query" ,"2"))
+paramArray.append(exe.MakeParam(BaseName+"QueryParam" ,"3"))
+Param =  exe.sep.join(paramArray)
+
+exe.executor(OutPutPath,TemplatePath,OutPutBasePath,Param)
+
+#exe.OpenFolder(OutPutBasePath+OutPutPath)

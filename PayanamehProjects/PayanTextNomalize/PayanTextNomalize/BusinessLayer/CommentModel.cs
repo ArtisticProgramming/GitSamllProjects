@@ -13,7 +13,6 @@ namespace PayanTextNomalize.BusinessLayer
             using (Model.Model1 db = new Model.Model1())
             {
                 var data = db.MemberComment_W.Take(1000);
-
             }
         }
     }

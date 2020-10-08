@@ -5,7 +5,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -22,25 +24,21 @@ namespace PayanTextNomalize
         public Form1()
         {
             InitializeComponent();
-            PersianStopWords = new string[] { "‏دیگران", "همچنان", "مدت", "چیز", "سایر", "جا", "طی",
-                "کل", "کنونی", "بیرون", "مثلا", "کامل", "کاملا", "آنکه", "موارد", "واقعی", "امور",
-                "اکنون", "بطور", "بخشی", "تحت", "چگونه", "عدم", "نوعی", "وضع",
-                "مقابل", "کنار", "خویش", "نگاه", "درون", "زمانی", "بنابراین", "تو", "خیلی",
-                "بزرگ", "خودش", "جز", "اینجا", "مختلف", "توسط", "نوع", "همچنین", "آنجا", "قبل",
-                "جناح", "اینها", "طور", "شاید", "ایشان", "جهت", "طریق", "مانند", "پیدا", "ممکن",
-                "کسانی", "جای", "کسی", "غیر", "بی", "قابل", "درباره", "جدید", "وقتی", "اخیر", "چرا",
-                "بیش", "روی", "طرف", "جریان", "زیر", "آنچه", "البته", "فقط", "چیزی", "چون", "برابر",
-                "هنوز", "بخش", "زمینه", "بین", "بدون", "استفاد", "همان", "نشان", "بسیاری", "بعد",
-                "عمل", "روز", "اعلام", "چند", "آنان", "بلکه", "امروز", "تمام", "بیشتر", "آیا", "برخی",
-                "علیه", "دیگری", "ویژه", "گذشته", "انجام", "حتی", "داده", "راه", "سوی", "ولی", "زمان", "حال",
-                "تنها", "بسیار", "یعنی", "عنوان", "همین", "هبچ", "پیش", "وی", "یکی", "اینکه", "وجود", "شما",
-                "پس", "چنین", "میان", "مورد", "چه", "اگر", "همه", "نه", "دیگر", "آنها", "باید", "هر",
+            PersianStopWords = new string[] { "‏دیگران", "همچنان",  "چیز", "سایر", "طی",
+                "کل", "کنونی",  "مثلا", "آنکه", "موارد","امور",
+                "مقابل", "کنار", "خویش", "نگاه",  "بنابراین", "تو", 
+                 "خودش", "اینجا", "توسط", "همچنین", "آنجا", 
+                "جناح", "اینها", "طور", "شاید", "ایشان", "جهت", "طریق", "مانند",
+                "کسانی", "کسی",  "درباره",  "وقتی", "چرا","بیش", "روی", "طرف", "جریان",  "آنچه", 
+                "هنوز", "بخش", "زمینه", "بین", "بدون", "استفاد",   
+                "عمل",  "چند", "آنان", "بلکه", "امروز", "آیا", "برخی",
+                "علیه", "دیگری",  "انجام", "حتی", "داده", "راه", "سوی", "ولی", "حال",
+                "یعنی",  "وی", "اینکه",  "شما",
+                "پس", "چنین", "میان", "چه", "اگر", "نه", "دیگر", "آنها", "باید", "هر",
                 "او", "ما", "من", "تا", "نیز", "اما", "یک", "خود", "بر", "یا", "هم", "را", "این", "با",
-                "آن", "برای", "و", "در", "به", "که", "از" ,
-                "بقیه","همسر","دنبال","چقدر","والا","مخصوصا","کلی","اصلا","واقعا","دهه","الان",
-                "کاملا","چرا","که","هیچ","کدام","هیچکدام",
-                "باز","آقا","شما","او","تو","من","بعضی ","مثل","رسما","درکل","ما","یه","نفر","اسم","همراه","سری",
-                "آدم","مورد","شامل","همیشه","راجع","راجعبه","اساسا","مجدد","نحوه"};
+                "آن", "برای", "و", "در", "به", "که", "از" ,"بقیه","دنبال","والا","دهه","الان","چرا","که","کدام",
+                "باز","آقا","شما","او","تو","من","مثل","رسما","ما","یه","نفر","اسم","همراه","سری",
+                "مورد","شامل","راجع","راجع به","اساسا","نحوه"};
 
             PersianStopWords2 = new string[] { };
 
@@ -140,12 +138,12 @@ namespace PayanTextNomalize
             // RemoveremoveExcitingWordsByPersianAlphabets();
             using (Model.Model1 db = new Model.Model1())
             {
-                while (db.MemberComment_W.Where(x => x.PreProcessedBody == null).Any())
+                while (db.MemberComment_W.Where(x => x.PreProcessedBody == null || x.PreProcessedBody == "").Any())
                 {
                     Stopwatch stopwatch = new Stopwatch();
                     stopwatch.Start();
 
-                    var list = db.MemberComment_W.Where(x => x.PreProcessedBody == null).Take(1000);
+                    var list = db.MemberComment_W.Where(x => x.PreProcessedBody == null || x.PreProcessedBody == "").Take(1000);
 
                     foreach (var it in list)
                     {
@@ -157,37 +155,40 @@ namespace PayanTextNomalize
                         //    continue;
                         //}
                         ////1
-                        //var output = TextNormalization.TranformToStandardForm(it.Body);
+                        var output = TextNormalization.TranformToStandardForm(it.Body);
                         ////Remove Enter
                         ////output = output.Replace(System.Environment.NewLine, " ");
                         ////textBox2.Text = output;
-                        //it.Body_After_Standardization = output;
+                        it.Body_After_Standardization = output;
 
                         ////2
-                        //var cleanString = Regex.Replace(output, @"[^\u0622-\u064A\u0698\u06C1\u06C2\u06C3\u06CC\u06AF\u06BE\u0672\u067E\uFB8A\u06A9\u067E\u0686\u0686\u06AF\u200C\u200F  ]", " ");
+                        var cleanString = Regex.Replace(output, @"[^\u0622-\u064A\u0698\u06C1\u06C2\u06C3\u06CC\u06AF\u06BE\u0672\u067E\uFB8A\u06A9\u067E\u0686\u0686\u06AF\u200C\u200F  ]", " ");
 
                         ////Remove More than on space with space
-                        //cleanString = Regex.Replace(cleanString, @"\s+", " ");
+                        cleanString = Regex.Replace(cleanString, @"\s+", " ");
                         ////textBox3.Text = cleanString;
 
                         ////Standardizaing Exciting Words In Sentence
                         ////   cleanString = StandardizaingExcitingWordsFromSentence(cleanString);
 
-                        //it.Body_After_Cleaning = cleanString;
+                        it.Body_After_Cleaning = cleanString;
 
                         ////3
-                        //var stimmedText = NormalizeAndStemming(cleanString);
+                        var stimmedText = NormalizingText(cleanString);
                         ////textBox4.Text = stimmedText;
-                        //it.Body_After_Steaming = stimmedText;
-                        var standard = StandardizaingExcitingWordsFromSentence(it.Body_After_RemovingStopWords);
+                        it.Body_After_Steaming = stimmedText;
+                        var standard = StandardizaingExcitingWordsFromSentence(it.Body_After_Steaming);
 
-                        ////4
-                        //var TexsWithoutStopWords = RemovingStopWords(standard);
-                        var TexsWithoutStopWords = RemovingStopWords2(standard);
+                    ////4
+                          var TexsWithoutStopWords = RemovingStopWords(standard);
+                              TexsWithoutStopWords = RemovingStopWords2(TexsWithoutStopWords);
                         ////textBox5.Text = TexsWithoutStopWords;
                         it.Body_After_RemovingStopWords = TexsWithoutStopWords;
 
-
+                        if (string.IsNullOrWhiteSpace(TexsWithoutStopWords))
+                        {
+                            TexsWithoutStopWords = "-";
+                        }
                         it.PreProcessedBody = TexsWithoutStopWords;
 
                         // string input = "nsa";
@@ -209,21 +210,21 @@ namespace PayanTextNomalize
                         //All arabic letter from u0600 to u06FF
                         // var cleanString = Regex.Replace(textBox1.Text, @"[^\u0600-\u06FF\uFB8A\u067E\u0686\u06AF\u200C\u200F  ]", "");
                         //textBox3.Text = cleanString.ToString();
-
                     }
                     db.SaveChanges();
                     stopwatch.Stop();
                     Thread.Sleep(1000);
-
                 }
-
             }
-
             MessageBox.Show("Sucess", "text");
         }
 
         private string StandardizaingExcitingWordsFromSentence(string sentence)
         {
+            if (string.IsNullOrEmpty(sentence))
+            {
+                return sentence;
+            }
             var chars = new string[] { " " };
             var stringArray = sentence.Split(chars, StringSplitOptions.RemoveEmptyEntries).ToArray();
             for (int i = 0; i < stringArray.Length; i++)
@@ -294,9 +295,128 @@ namespace PayanTextNomalize
 
         public string RemovingStopWords2(string input)
         {
+            if (string.IsNullOrEmpty(input))
+                return "";
             var stopWordsCollection = PersianStopWords2;
             return string.Join(" ", input.Split(' ').Where(w => !stopWordsCollection.Contains(w.TrimStart().TrimEnd())));
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            using (Model.Model1 db = new Model.Model1())
+            {
+                while (db.MemberComment_W.Where(x => x.PreProcessedBody == null || x.PreProcessedBody == "").Any())
+                {
+                    Stopwatch stopwatch = new Stopwatch();
+                    stopwatch.Start();
+
+                    var list = db.MemberComment_W.Where(x => x.PreProcessedBody == null || x.PreProcessedBody == "").Take(1000);
+
+                    foreach (var it in list)
+                    {
+                        ////4
+                        var standard = StandardizaingExcitingWordsFromSentence(it.Body_After_Steaming);
+                        var TexsWithoutStopWords = RemovingStopWords(standard);
+                        TexsWithoutStopWords = RemovingStopWords2(TexsWithoutStopWords);
+                        ////textBox5.Text = TexsWithoutStopWords;
+                        it.Body_After_RemovingStopWords = TexsWithoutStopWords;
+                        if (string.IsNullOrWhiteSpace(TexsWithoutStopWords))
+                        {
+                            TexsWithoutStopWords = "-";
+                        }
+                        it.PreProcessedBody = TexsWithoutStopWords;
+                    }
+                    db.SaveChanges();
+                    stopwatch.Stop();
+                    Thread.Sleep(1000);
+                }
+            }
+            MessageBox.Show("Sucess", "text");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (Model.Model1 db = new Model.Model1())
+            {
+                while (db.MemberComment_W.Where(x=>x.SVM_Tag == null).Any())
+                {
+                    var list = db.MemberComment_W.Where(x => x.SVM_Tag == null).Take(100);
+                    foreach (var item in list)
+                    {
+                        var SVMTag = TaggingWithML_SVM_Alghoritem(item.PreProcessedBody);
+                        var NBTag = TaggingWithML_NB_Alghoritem(item.PreProcessedBody);
+                        item.SVM_Tag = SVMTag;
+                        item.NB_Tag = NBTag;
+                    }
+                    db.SaveChanges();
+                    Thread.Sleep(1000);
+                }
+            }
+        }
+
+        private string TaggingWithML_SVM_Alghoritem(string text)
+        {
+            string tag = string.Empty;
+            string url = @"http://localhost:5000/svm/"+text;
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.AutomaticDecompression = DecompressionMethods.GZip;
+
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                tag = reader.ReadToEnd();
+            }
+            
+
+            if (tag == "['pos']")
+            {
+                tag = "Pos";
+            }
+            else if (tag == "['neg']")
+            {
+                tag = "Neg";
+            }
+            else
+            {
+                tag = "---";           }
+
+            Console.WriteLine(tag);
+
+            return tag;
+        }
+        private string TaggingWithML_NB_Alghoritem(string text)
+        {
+            string tag = string.Empty;
+            string url = @"http://localhost:5000/nb/" + text;
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.AutomaticDecompression = DecompressionMethods.GZip;
+
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                tag = reader.ReadToEnd();
+            }
+
+            if (tag == "['pos']")
+            {
+                tag = "Pos";
+            }
+            else if (tag == "['neg']")
+            {
+                tag = "Neg";
+            }
+            else
+            {
+                tag = "---";
+            }
+
+            Console.WriteLine(tag);
+
+            return tag;
+        }
     }
 }
-

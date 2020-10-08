@@ -23,3 +23,27 @@ C:\Users\jafar\documents\visual studio 2015\Projects\PayanTextNomalize\PayanText
 C:\Users\jafar\documents\visual studio 2015\Projects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.a4.resources
 C:\Users\jafar\documents\visual studio 2015\Projects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.AddingSomeCoulmns.resources
 C:\Users\jafar\documents\visual studio 2015\Projects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.AddingPreProcessedBodycol.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\PayanTextNomalize.exe.config
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\PayanTextNomalize.exe
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\PayanTextNomalize.pdb
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\EntityFramework.dll
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\EntityFramework.SqlServer.dll
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\EntityFramework.xml
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\bin\Debug\EntityFramework.SqlServer.xml
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.csprojAssemblyReference.cache
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Form1.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.Intial.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.a.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.a2.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.a3.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.a4.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.AddingSomeCoulmns.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.AddingPreProcessedBodycol.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Properties.Resources.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.csproj.GenerateResource.cache
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.csproj.CoreCompileInputs.cache
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.csproj.CopyComplete
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.exe
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.pdb
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.Add_SVM_Tag_coulmn.resources
+C:\home\GitSamllProjects\PayanamehProjects\PayanTextNomalize\PayanTextNomalize\obj\Debug\PayanTextNomalize.Migrations.Add_NB_Tag_coulmn.resources

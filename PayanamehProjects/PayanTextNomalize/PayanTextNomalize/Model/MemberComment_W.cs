@@ -24,6 +24,10 @@ namespace PayanTextNomalize.Model
 
         public string PreProcessedBody { get; set; }
 
+        public string SVM_Tag { get; set; }
+        public string NB_Tag { get; set; }
+
+
         [Key]
         [Column(Order = 1)]
         public DateTime AddedDate { get; set; }

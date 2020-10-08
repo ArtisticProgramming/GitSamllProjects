@@ -14,6 +14,5 @@ namespace PayanTextNomalize.Dto
         public string Body_After_Cleaning { get; set; }
         public string Body_After_Steaming{ get; set; }
         public string Body_After_RemovingStopWords { get; set; }
-
     }
 }

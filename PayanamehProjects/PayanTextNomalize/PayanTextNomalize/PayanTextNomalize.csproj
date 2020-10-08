@@ -108,6 +108,14 @@
     <Compile Include="Migrations\202006061309177_AddingPreProcessedBodycol.Designer.cs">
       <DependentUpon>202006061309177_AddingPreProcessedBodycol.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010041028386_Add_SVM_Tag_coulmn.cs" />
+    <Compile Include="Migrations\202010041028386_Add_SVM_Tag_coulmn.Designer.cs">
+      <DependentUpon>202010041028386_Add_SVM_Tag_coulmn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010041048339_Add_NB_Tag_coulmn.cs" />
+    <Compile Include="Migrations\202010041048339_Add_NB_Tag_coulmn.Designer.cs">
+      <DependentUpon>202010041048339_Add_NB_Tag_coulmn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\MemberComment.cs" />
     <Compile Include="Model\MemberComment_W.cs" />
@@ -141,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006061309177_AddingPreProcessedBodycol.resx">
       <DependentUpon>202006061309177_AddingPreProcessedBodycol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010041028386_Add_SVM_Tag_coulmn.resx">
+      <DependentUpon>202010041028386_Add_SVM_Tag_coulmn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010041048339_Add_NB_Tag_coulmn.resx">
+      <DependentUpon>202010041048339_Add_NB_Tag_coulmn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

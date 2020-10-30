@@ -1,0 +1,37 @@
+App Shell Caching 
+	Use Service Workers
+	Lets the app Load immedailty
+	Lets the app work even without connection or bad connection
+
+Add installation support
+        	Web App Manifest
+	let the user install the app
+	Creates an icon on the home screen
+	Creates an immersive full screen experience
+
+------------------------------------------------------------------
+>  npm install  -g @angular/cli
+>  ng new mycoffeeapp
+> npm install	
+----------------------------------------
+>ng build  //Dev mode
+>ng build --prod
+>ng serve --prod
+
+------------------------
+Generate Service via Angualr Cli
+>ng generate service xxxxx
+-----------------------
+install angualr material
+> npm install --save @angular/material @angular/cdk
+> npm install --save @angular/animations
+
+>npm install --save hammerjs
+------------------------------
+> ng g component Coffe 
+-------------------
+Install NPM with Version (you can user @ with version number)
+npm i jquery@3.2.0
+-----------------------------
+declare var $: any;
+-----------------------------

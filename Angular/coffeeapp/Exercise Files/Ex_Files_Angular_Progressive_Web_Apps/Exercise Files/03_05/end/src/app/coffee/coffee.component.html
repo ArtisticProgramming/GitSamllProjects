@@ -1,0 +1,30 @@
+<form>
+
+  <md-input-container>
+    <input mdInput placeholder="Coffee Name"
+           name="name" [(ngModel)]="coffee.name">
+  </md-input-container>
+
+  <md-input-container>
+    <input mdInput placeholder="Place Name"
+           name="place" [(ngModel)]="coffee.place">
+  </md-input-container>
+
+  <md-select placeholder="Coffee Type" name="type"
+           [(ngModel)]="coffee.type">
+    <md-option *ngFor="let type of types" [value]="type">
+      {{ type }}
+    </md-option>
+  </md-select>
+
+  <md-input-container>
+    <textarea mdInput placeholder="Notes"
+           name="notes" [(ngModel)]="coffee.notes">
+    </textarea>
+  </md-input-container>
+
+  <md-card>
+    {{ coffee | json }}
+  </md-card>
+
+</form>

@@ -1,0 +1,9 @@
+<md-card *ngFor="let coffee of list">
+   <md-card-title>{{ coffee.name }}</md-card-title>
+   <md-card-subtitle>Place: {{ coffee.place }}</md-card-subtitle>
+   <md-card-actions>
+     <button md-button><md-icon>map</md-icon></button>
+     <button md-button><md-icon>share</md-icon></button>
+     <button md-button><md-icon>list</md-icon></button>
+   </md-card-actions>
+</md-card>

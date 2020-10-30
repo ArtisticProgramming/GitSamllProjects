@@ -1,0 +1,15 @@
+md-card {
+    margin: 20px;
+}
+
+md-input-container, md-select {
+    width: 100%
+}
+
+md-card-title {
+    font-size: larger;
+}
+
+md-slider {
+    width: 90%;
+}

@@ -1,0 +1,11 @@
+<md-card *ngFor="let coffee of list">
+   <md-card-title>{{ coffee.name }}</md-card-title>
+   <md-card-subtitle>Place: {{ coffee.place }}</md-card-subtitle>
+   <md-card-actions>
+     <button (click)="goMap(coffee)" md-button><md-icon>map</md-icon></button>
+     <button (click)="share(coffee)" md-button><md-icon>share</md-icon></button>
+     <button (click)="goDetails(coffee)" md-button><md-icon>list</md-icon></button>
+   </md-card-actions>
+</md-card>
+
+<a id="btnCreate" md-fab routerLink="/coffee"><md-icon>create</md-icon></a>

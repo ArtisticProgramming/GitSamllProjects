@@ -1,9 +1,6 @@
-void main()
-{
-  int i=1500;
-  int x=2500;
-  if(i>=x)
-  {
-     int o=90000;
-  }
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
 }

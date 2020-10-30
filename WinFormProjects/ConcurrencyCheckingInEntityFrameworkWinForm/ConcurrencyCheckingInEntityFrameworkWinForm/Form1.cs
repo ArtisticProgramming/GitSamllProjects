@@ -15,6 +15,8 @@ namespace ConcurrencyCheckingInEntityFrameworkWinForm
     public partial class Form1 : Form
     {
         public byte[] currentRowVersion { get; set; }
+
+        public User user { get; set; }
         public Form1()
         {
             InitializeComponent();
@@ -28,14 +30,15 @@ namespace ConcurrencyCheckingInEntityFrameworkWinForm
                 db.SaveChanges();
             }
         }
-  
+
         private void button2_Click(object sender, EventArgs e)
         {
             using (var db = new ConcurrencyCheckingInEntityFrameworkDBEntities())
             {
                 var item = db.Users.FirstOrDefault();
+                user = item;
                 textBox1.Text = item.Name;
-                textBox2.Text =string.Join("", item.RowVersion);
+                textBox2.Text = string.Join("", item.RowVersion);
                 currentRowVersion = item.RowVersion;
             }
         }
@@ -44,9 +47,12 @@ namespace ConcurrencyCheckingInEntityFrameworkWinForm
         {
             using (var db = new ConcurrencyCheckingInEntityFrameworkDBEntities())
             {
-                var model = db.Users.FirstOrDefault();
-                model.RowVersion = currentRowVersion;
-                model.Name = textBox1.Text;
+                //var model = db.Users.F irstOrDefault();
+
+                user.Name = textBox1.Text;
+
+                db.Entry(user).State = EntityState.Modified;
+
                 try
                 {
                     db.SaveChanges();
@@ -55,6 +61,20 @@ namespace ConcurrencyCheckingInEntityFrameworkWinForm
                 {
                     throw ex;
                 }
+
+                //------------------------------------Second Way----------------------------------------------------
+                //var model = db.Users.AsNoTracking().FirstOrDefault();
+                //user.Name = textBox1.Text;
+                //user.Age = model.Age;
+                //db.Entry(user).State = EntityState.Modified;
+                //try
+                //{
+                //    db.SaveChanges();
+                //}
+                //catch (DbUpdateConcurrencyException ex)
+                //{
+                //    throw ex;
+                //}
             }
         }
 

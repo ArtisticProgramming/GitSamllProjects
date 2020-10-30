@@ -26,17 +26,21 @@ namespace PayanTextNomalize
             InitializeComponent();
             PersianStopWords = new string[] { "‏دیگران", "همچنان",  "چیز", "سایر", "طی",
                 "کل", "کنونی",  "مثلا", "آنکه", "موارد","امور",
-                "مقابل", "کنار", "خویش", "نگاه",  "بنابراین", "تو", 
-                 "خودش", "اینجا", "توسط", "همچنین", "آنجا", 
+                "مقابل", "کنار", "خویش", "نگاه",  "بنابراین", "تو",
+                 "خودش", "اینجا", "توسط", "همچنین", "آنجا",
                 "جناح", "اینها", "طور", "شاید", "ایشان", "جهت", "طریق", "مانند",
-                "کسانی", "کسی",  "درباره",  "وقتی", "چرا","بیش", "روی", "طرف", "جریان",  "آنچه", 
-                "هنوز", "بخش", "زمینه", "بین", "بدون", "استفاد",   
+                "کسانی", "کسی",  "درباره",  "وقتی", "چرا","بیش", "روی", "طرف", "جریان",  "آنچه",
+                "هنوز", "بخش", "زمینه", "بین", "بدون", "استفاد",
                 "عمل",  "چند", "آنان", "بلکه", "امروز", "آیا", "برخی",
                 "علیه", "دیگری",  "انجام", "حتی", "داده", "راه", "سوی", "ولی", "حال",
                 "یعنی",  "وی", "اینکه",  "شما",
-                "پس", "چنین", "میان", "چه", "اگر", "نه", "دیگر", "آنها", "باید", "هر",
-                "او", "ما", "من", "تا", "نیز", "اما", "یک", "خود", "بر", "یا", "هم", "را", "این", "با",
-                "آن", "برای", "و", "در", "به", "که", "از" ,"بقیه","دنبال","والا","دهه","الان","چرا","که","کدام",
+                "پس", "چنین", "میان", "چه", "اگر", "نه", "دیگر", 
+                
+                "آنها", "باید", "هر",
+                "او", "ما", "من", "تا", "نیز", "اما", "یک", "خود",
+                "بر", "یا", "هم", "را", "این", "با",
+                "آن", "برای", "و", "در", "به", "که", "از" ,"بقیه",
+                "دنبال","والا","دهه","الان","چرا","که","کدام",
                 "باز","آقا","شما","او","تو","من","مثل","رسما","ما","یه","نفر","اسم","همراه","سری",
                 "مورد","شامل","راجع","راجع به","اساسا","نحوه"};
 
@@ -87,7 +91,7 @@ namespace PayanTextNomalize
 
         static string steamingText(string inputText)
         {
-            var output = (new StemmingTools()).LemmatizeText(inputText, 
+            var output = (new StemmingTools()).LemmatizeText(inputText,
                                         LevelOfLemmatizer.First, false);
 
             return output;
@@ -179,9 +183,9 @@ namespace PayanTextNomalize
                         it.Body_After_Steaming = stimmedText;
                         var standard = StandardizaingExcitingWordsFromSentence(it.Body_After_Steaming);
 
-                    ////4
-                          var TexsWithoutStopWords = RemovingStopWords(standard);
-                              TexsWithoutStopWords = RemovingStopWords2(TexsWithoutStopWords);
+                        ////4
+                        var TexsWithoutStopWords = RemovingStopWords(standard);
+                        TexsWithoutStopWords = RemovingStopWords2(TexsWithoutStopWords);
                         ////textBox5.Text = TexsWithoutStopWords;
                         it.Body_After_RemovingStopWords = TexsWithoutStopWords;
 
@@ -338,7 +342,7 @@ namespace PayanTextNomalize
         {
             using (Model.Model1 db = new Model.Model1())
             {
-                while (db.MemberComment_W.Where(x=>x.SVM_Tag == null).Any())
+                while (db.MemberComment_W.Where(x => x.SVM_Tag == null).Any())
                 {
                     var list = db.MemberComment_W.Where(x => x.SVM_Tag == null).Take(100);
                     foreach (var item in list)
@@ -357,7 +361,7 @@ namespace PayanTextNomalize
         private string TaggingWithML_SVM_Alghoritem(string text)
         {
             string tag = string.Empty;
-            string url = @"http://localhost:5000/svm/"+text;
+            string url = @"http://localhost:5000/svm/" + text;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.AutomaticDecompression = DecompressionMethods.GZip;
@@ -368,7 +372,7 @@ namespace PayanTextNomalize
             {
                 tag = reader.ReadToEnd();
             }
-            
+
 
             if (tag == "['pos']")
             {
@@ -380,7 +384,8 @@ namespace PayanTextNomalize
             }
             else
             {
-                tag = "---";           }
+                tag = "---";
+            }
 
             Console.WriteLine(tag);
 

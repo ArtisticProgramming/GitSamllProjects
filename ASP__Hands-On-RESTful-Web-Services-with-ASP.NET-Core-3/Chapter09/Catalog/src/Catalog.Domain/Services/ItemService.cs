@@ -50,7 +50,7 @@ namespace Catalog.Domain.Services
             var existingRecord = await _itemRepository.GetAsync(request.Id);
 
             if (existingRecord == null)
-            {
+            { 
                 throw new ArgumentException($"Entity with {request.Id} is not present");
             }
 
@@ -58,6 +58,7 @@ namespace Catalog.Domain.Services
             var result = _itemRepository.Update(entity);
 
             await _itemRepository.UnitOfWork.SaveChangesAsync();
+
             return _itemMapper.Map(result);
         }
     }

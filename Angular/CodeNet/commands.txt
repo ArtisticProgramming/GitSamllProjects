@@ -1,0 +1,7 @@
+mkdir Catalog.API
+cd Catalog.API
+dotnet new sln -n Catalog.API
+mkdir src
+cd src
+dotnet new webapi -n Catalog.API
+dotnet sln ../Catalog.API.sln add Catalog.API

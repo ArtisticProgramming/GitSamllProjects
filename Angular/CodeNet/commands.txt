@@ -5,3 +5,6 @@ mkdir src
 cd src
 dotnet new webapi -n Catalog.API
 dotnet sln ../Catalog.API.sln add Catalog.API
+===============================================
+dotnet new classlib -n Catalog.Domain -f netstandard2.1
+dotnet sln ../Catalog.API.sln add Catalog.Domain

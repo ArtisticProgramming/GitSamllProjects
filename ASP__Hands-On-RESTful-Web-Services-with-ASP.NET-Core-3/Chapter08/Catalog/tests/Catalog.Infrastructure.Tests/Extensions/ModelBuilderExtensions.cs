@@ -14,7 +14,6 @@ namespace Catalog.Infrastructure.Tests.Extensions
                 var data = JsonConvert.DeserializeObject<T[]>(json);
                 modelBuilder.Entity<T>().HasData(data);
             }
-
             return modelBuilder;
         }
     }

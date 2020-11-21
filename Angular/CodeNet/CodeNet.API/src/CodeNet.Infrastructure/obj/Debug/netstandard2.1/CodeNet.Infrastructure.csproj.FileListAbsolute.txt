@@ -1,0 +1,12 @@
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\bin\Debug\netstandard2.1\CodeNet.Infrastructure.deps.json
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\bin\Debug\netstandard2.1\CodeNet.Infrastructure.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.csprojAssemblyReference.cache
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.AssemblyInfoInputs.cache
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.AssemblyInfo.cs
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\bin\Debug\netstandard2.1\CodeNet.Domain.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\bin\Debug\netstandard2.1\CodeNet.Infrastructure.pdb
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\bin\Debug\netstandard2.1\CodeNet.Domain.pdb
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.csproj.CopyComplete
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.pdb
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Infrastructure\obj\Debug\netstandard2.1\CodeNet.Infrastructure.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using CodeNet.Domain.Entities;
+using CodeNet.Domain.Repositories.BaseClasses;
+
+namespace @<ns>
+{
+    public interface @<in> : IRepository
+    {
+      
+      
+    }
+}

@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using System.Text;
 using CodeNet.Domain.Entities;
 using CodeNet.Infrastructure.SchemaDefinitions;
+using CodeNet.Domain.Repositories.BaseClasses;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace CodeNet.Infrastructure
 {
-   public class CodeNetContext : DbContext
+   public class CodeNetContext : DbContext, IUnitOfWork
     {
         public DbSet<CodeNote> CodeNote { get; set; }
         public DbSet<CodeNoteDetail> CodeNoteDetail { get; set; }
@@ -18,12 +21,9 @@ namespace CodeNet.Infrastructure
         public DbSet<Project> Project { get; set; }
         public DbSet<User> User { get; set; }
 
-
-
         public CodeNetContext(DbContextOptions<CodeNetContext> options) : base(options)
         {
         }
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -39,6 +39,11 @@ namespace CodeNet.Infrastructure
             base.OnModelCreating(modelBuilder);
         }
 
+        public async Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default)
+        {
+            await base.SaveChangesAsync(cancellationToken);
+            return true;
+        }
     }
 }
 

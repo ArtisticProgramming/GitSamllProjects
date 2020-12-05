@@ -7,7 +7,7 @@ namespace CodeNet.Domain.Entities
     {
         public long Id { get; set; }
         public string Name { get; set; }
-        public long UserName { get; set; }
+        public string UserName { get; set; }
         public long IsActive { get; set; }
         public ICollection<CodeNote> CodeNotes { get; set; }
         public ICollection<NoteType> NoteTypes { get; set; }

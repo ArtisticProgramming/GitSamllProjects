@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AnTg3oW9quQkmI3qtSKjng4vazNYkLz62uO1oyhJ4kkoVlWOHRpUs6DL9nL4U1CmP5OPjw6aCLLaHKnRrKATPQ==",
+  "dgSpecHash": "twGwKCtj8b4UdUnHSgIZtxs84Otbq2TfgoGyMpfu2G4PVTciM1XWzMWnbak2ludcrdLvDIi9YTQXbREkAE1IZA==",
   "success": true,
   "projectFilePath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Domain\\CodeNet.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jafar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.0\\microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
+    "C:\\Users\\jafar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

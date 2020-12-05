@@ -3,7 +3,7 @@ C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\bin\Debu
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\bin\Debug\netstandard2.1\CodeNet.Domain.pdb
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.AssemblyInfoInputs.cache
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.AssemblyInfo.cs
-C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.csproj.CoreCompileInputs.cache
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.dll
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.pdb
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.csprojAssemblyReference.cache
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\obj\Debug\netstandard2.1\CodeNet.Domain.csproj.CoreCompileInputs.cache

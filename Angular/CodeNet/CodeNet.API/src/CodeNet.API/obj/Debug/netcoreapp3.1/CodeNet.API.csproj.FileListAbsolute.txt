@@ -65,3 +65,8 @@ C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\bin\Debug\n
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\obj\Debug\netcoreapp3.1\CodeNet.API.csproj.CoreCompileInputs.cache
 C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\obj\Debug\netcoreapp3.1\CodeNet.API.MvcApplicationPartsAssemblyInfo.cache
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.API\obj\Debug\netcoreapp3.1\CodeNet.API.MvcApplicationPartsAssemblyInfo.cs

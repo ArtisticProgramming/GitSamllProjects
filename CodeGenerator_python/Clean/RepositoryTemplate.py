@@ -4,11 +4,12 @@ print(__name__)
 
 class GlobalOption:
     # Class attribute
-    repositoryClassTemplateBasePath = "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\templates\\"
-    repositoryInterfaceTemplateBasePath = "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\templates\\"
-    outPutBasePath_repositoryClass= "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Infrastructure\\Repositories\\"
-    outPutBasePath_repositoryInterface= r"C:\home\GitSamllProjects\Angular\CodeNet\CodeNet.API\src\CodeNet.Domain\Repositories"
-
+    base= r"C:\home\GitSamllProjects\Angular\CodeNet"   
+    repositoryClassTemplateBasePath =base +r'\templates\\'
+    repositoryInterfaceTemplateBasePath =base + r'\templates\\'
+    outPutBasePath_repositoryClass=base + r'\CodeNet.API\src\CodeNet.Infrastructure\Repositories'
+    outPutBasePath_repositoryInterface=base + r'\CodeNet.API\src\CodeNet.Domain\Repositories'
+#-------------------------------------------------------------------------------------------------------
 
 def createRepositoryClassTemplate(baseName, outPutBasePath):
     templatePath = GlobalOption.repositoryClassTemplateBasePath+"repositoryClassTempl.txt"
@@ -20,9 +21,9 @@ def createRepositoryClassTemplate(baseName, outPutBasePath):
         "ns":"CodeNet.Infrastructure.Repositories"   
     }
 
-    OutPutPath ='\\'+className+".cs"
+    OutPutPath ="\\"+className+".cs"
     param = exe.createParamtersString(paramDic)
-    #exe.executor(OutPutPath,templatePath,outPutBasePath,param)
+    exe.executor(OutPutPath,templatePath,outPutBasePath,param)
 
 def createRepositoryInterfaceTemplate(baseName, outPutBasePath):
     templatePath = GlobalOption.repositoryInterfaceTemplateBasePath +"repositoryInterfaceTempl.txt"
@@ -33,9 +34,9 @@ def createRepositoryInterfaceTemplate(baseName, outPutBasePath):
         "ns":"CodeNet.Domain.Repositories"   
     }
 
-    OutPutPath ='\\I'+className+".cs"
+    OutPutPath ='\I'+className+'.cs'
     param = exe.createParamtersString(paramDic)
-  #  exe.executor(OutPutPath,templatePath,outPutBasePath,param)
+    exe.executor(OutPutPath,templatePath,outPutBasePath,param)
 
 def cgRunner():
     outPutBasePath_repositoryClass =  GlobalOption.outPutBasePath_repositoryClass

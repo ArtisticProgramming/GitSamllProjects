@@ -8,7 +8,9 @@ namespace CodeNet.Domain.Repositories
 {
     public interface ICodeNoteRepository : IRepository
     {
-      
-      
+        Task<IEnumerable<CodeNote>> GetAsync();
+        Task<CodeNote> GetAsync(long Id);
+        CodeNote Add(CodeNote codeNote);
+
     }
 }

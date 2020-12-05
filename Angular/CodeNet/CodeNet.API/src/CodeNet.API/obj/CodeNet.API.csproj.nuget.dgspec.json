@@ -10,12 +10,16 @@
         "projectUniqueName": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.API\\CodeNet.API.csproj",
         "projectName": "CodeNet.API",
         "projectPath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.API\\CodeNet.API.csproj",
-        "packagesPath": "C:\\Users\\sun\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\jafar\\.nuget\\packages\\",
         "outputPath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jafar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -77,12 +81,16 @@
         "projectUniqueName": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Domain\\CodeNet.Domain.csproj",
         "projectName": "CodeNet.Domain",
         "projectPath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Domain\\CodeNet.Domain.csproj",
-        "packagesPath": "C:\\Users\\sun\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\jafar\\.nuget\\packages\\",
         "outputPath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jafar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -104,6 +112,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -119,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -129,12 +143,16 @@
         "projectUniqueName": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Infrastructure\\CodeNet.Infrastructure.csproj",
         "projectName": "CodeNet.Infrastructure",
         "projectPath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Infrastructure\\CodeNet.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sun\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\jafar\\.nuget\\packages\\",
         "outputPath": "C:\\home\\GitSamllProjects\\Angular\\CodeNet\\CodeNet.API\\src\\CodeNet.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jafar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -168,6 +186,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -185,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

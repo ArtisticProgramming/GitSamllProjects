@@ -53,7 +53,7 @@ def cgRunner():
     ]
     for baseName in arrName:
         createRepositoryClassTemplate(baseName,outPutBasePath_repositoryClass)
-        createRepositoryInterfaceTemplate(baseName,outPutBasePath_repositoryInterface)
+       # createRepositoryInterfaceTemplate(baseName,outPutBasePath_repositoryInterface)
     print("---------Finish----------")
 
 if (__name__ == "__main__"):

@@ -64,12 +64,13 @@ namespace NewLineRemover
             {
                 text = text.Trim();
                 var NewLine = Environment.NewLine;
+                var extraNewLine = insideCellch.Checked ? Environment.NewLine : "";
                 text = text.Replace(NewLine, " ");
-                text = text.Replace(". ", "." + NewLine + (emptyLineCheckboxChecked ? NewLine : string.Empty));
-                text = text.Replace(NewLine + " ", NewLine);
-                text = text + (emptyLineCheckboxChecked ? NewLine + " " :string.Empty);
+                text = text.Replace(". ", "." + NewLine+ extraNewLine + (emptyLineCheckboxChecked ? NewLine + extraNewLine : string.Empty));
+                text = text.Replace(NewLine + " ", NewLine+ extraNewLine);
+                text = text + (emptyLineCheckboxChecked ? NewLine+ extraNewLine + " " : string.Empty);
                 textBox1.Text = text;
-                if (string.IsNullOrEmpty(text) ==false)
+                if (string.IsNullOrEmpty(text) == false)
                 {
                     Clipboard.SetText(text);
                 }
@@ -103,7 +104,7 @@ namespace NewLineRemover
                 textBox1.Text = ex.ToString();
                 throw ex;
             }
-         
+
         }
 
         private async void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -286,7 +287,7 @@ namespace NewLineRemover
 
             File.WriteAllText(sgPathTxt.Text + "\\" + sgLastSqlNumber.Text, templText);
 
-            MessageBox.Show("Finished successfully","Result",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Finished successfully", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             //try
             //{
@@ -317,6 +318,11 @@ namespace NewLineRemover
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void emptyLineCheckbox_CheckedChanged(object sender, EventArgs e)
         {
 
         }

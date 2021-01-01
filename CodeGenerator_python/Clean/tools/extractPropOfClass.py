@@ -1,10 +1,12 @@
 import re
 
 template = """
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string UserName { get; set; }
-        public long IsActive { get; set; }
+
+        public  GeneralSubject { get; set; }
+        public  NoteType { get; set; }
+        public  SpecificSubject { get; set; }
+        public  Project { get; set; }
+        public  User { get; set; }
 """
 
 

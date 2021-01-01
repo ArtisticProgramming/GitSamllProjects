@@ -1,0 +1,4 @@
+﻿dotnet ef migrations add InitMigration 
+------------------------------------------
+dotnet ef database update
+------------------------------------------

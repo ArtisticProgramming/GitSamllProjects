@@ -14,7 +14,6 @@ C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\bin\Debug\XmlModel\AppCon
 C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\bin\Debug\NewLineRemover.exe.config
 C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\bin\Debug\NewLineRemover.exe
 C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\bin\Debug\NewLineRemover.pdb
-C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.csprojAssemblyReference.cache
 C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.Form1.resources
 C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.Properties.Resources.resources
 C:\home\GitSamllProjects\NewLineRemover\NewLineRemover\obj\Debug\NewLineRemover.csproj.GenerateResource.cache

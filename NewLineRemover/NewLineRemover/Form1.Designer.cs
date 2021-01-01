@@ -53,6 +53,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.emptyLineCheckbox = new System.Windows.Forms.CheckBox();
+            this.insideCellch = new System.Windows.Forms.CheckBox();
             this.tabPage2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -286,6 +287,7 @@
             // 
             this.tabPage1.BackColor = System.Drawing.Color.DimGray;
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage1.Controls.Add(this.insideCellch);
             this.tabPage1.Controls.Add(this.emptyLineCheckbox);
             this.tabPage1.Controls.Add(this.textBox2);
             this.tabPage1.Controls.Add(this.checkBox1);
@@ -307,6 +309,18 @@
             this.emptyLineCheckbox.TabIndex = 6;
             this.emptyLineCheckbox.Text = "AddNewEmptyLine";
             this.emptyLineCheckbox.UseVisualStyleBackColor = true;
+            this.emptyLineCheckbox.CheckedChanged += new System.EventHandler(this.emptyLineCheckbox_CheckedChanged);
+            // 
+            // insideCellch
+            // 
+            this.insideCellch.AutoSize = true;
+            this.insideCellch.ForeColor = System.Drawing.Color.White;
+            this.insideCellch.Location = new System.Drawing.Point(369, 19);
+            this.insideCellch.Name = "insideCellch";
+            this.insideCellch.Size = new System.Drawing.Size(142, 24);
+            this.insideCellch.TabIndex = 7;
+            this.insideCellch.Text = "Inside cell mode";
+            this.insideCellch.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -353,6 +367,7 @@
         private System.Windows.Forms.TextBox textBox1;
         public System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.CheckBox emptyLineCheckbox;
+        private System.Windows.Forms.CheckBox insideCellch;
     }
 }
 

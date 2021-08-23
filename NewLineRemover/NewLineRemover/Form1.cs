@@ -66,7 +66,7 @@ namespace NewLineRemover
                 var NewLine = Environment.NewLine;
                 var extraNewLine = insideCellch.Checked ? Environment.NewLine : "";
                 text = text.Replace(NewLine, " ");
-                text = text.Replace(". ", "." + NewLine+ extraNewLine + (emptyLineCheckboxChecked ? NewLine + extraNewLine : string.Empty));
+                text = text.Replace(". ", "." + NewLine+ extraNewLine + (emptyLineCheckboxChecked ? NewLine + extraNewLine  : string.Empty));
                 text = text.Replace(NewLine + " ", NewLine+ extraNewLine);
                 text = text + (emptyLineCheckboxChecked ? NewLine+ extraNewLine + " " : string.Empty);
                 textBox1.Text = text;

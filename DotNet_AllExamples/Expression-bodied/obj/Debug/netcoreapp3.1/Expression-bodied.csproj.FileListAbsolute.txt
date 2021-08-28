@@ -1,0 +1,13 @@
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\bin\Debug\netcoreapp3.1\Expression-bodied.exe
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\bin\Debug\netcoreapp3.1\Expression-bodied.deps.json
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\bin\Debug\netcoreapp3.1\Expression-bodied.runtimeconfig.json
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\bin\Debug\netcoreapp3.1\Expression-bodied.runtimeconfig.dev.json
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\bin\Debug\netcoreapp3.1\Expression-bodied.dll
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\bin\Debug\netcoreapp3.1\Expression-bodied.pdb
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.GeneratedMSBuildEditorConfig.editorconfig
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.AssemblyInfoInputs.cache
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.AssemblyInfo.cs
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.csproj.CoreCompileInputs.cache
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.dll
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.pdb
+C:\home\GitSamllProjects\DotNet_AllExamples\Expression-bodied\obj\Debug\netcoreapp3.1\Expression-bodied.genruntimeconfig.cache

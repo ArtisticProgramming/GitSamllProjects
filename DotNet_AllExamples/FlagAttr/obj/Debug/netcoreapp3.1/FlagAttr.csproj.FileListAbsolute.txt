@@ -1,0 +1,13 @@
+C:\home\AllExamples\FlagAttr\bin\Debug\netcoreapp3.1\FlagAttr.exe
+C:\home\AllExamples\FlagAttr\bin\Debug\netcoreapp3.1\FlagAttr.deps.json
+C:\home\AllExamples\FlagAttr\bin\Debug\netcoreapp3.1\FlagAttr.runtimeconfig.json
+C:\home\AllExamples\FlagAttr\bin\Debug\netcoreapp3.1\FlagAttr.runtimeconfig.dev.json
+C:\home\AllExamples\FlagAttr\bin\Debug\netcoreapp3.1\FlagAttr.dll
+C:\home\AllExamples\FlagAttr\bin\Debug\netcoreapp3.1\FlagAttr.pdb
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.csprojAssemblyReference.cache
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.AssemblyInfoInputs.cache
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.AssemblyInfo.cs
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.csproj.CoreCompileInputs.cache
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.dll
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.pdb
+C:\home\AllExamples\FlagAttr\obj\Debug\netcoreapp3.1\FlagAttr.genruntimeconfig.cache

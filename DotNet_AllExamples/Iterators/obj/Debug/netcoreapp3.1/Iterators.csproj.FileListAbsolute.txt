@@ -1,0 +1,12 @@
+C:\home\AllExamples\Iterators\bin\Debug\netcoreapp3.1\Iterators.exe
+C:\home\AllExamples\Iterators\bin\Debug\netcoreapp3.1\Iterators.deps.json
+C:\home\AllExamples\Iterators\bin\Debug\netcoreapp3.1\Iterators.runtimeconfig.json
+C:\home\AllExamples\Iterators\bin\Debug\netcoreapp3.1\Iterators.runtimeconfig.dev.json
+C:\home\AllExamples\Iterators\bin\Debug\netcoreapp3.1\Iterators.dll
+C:\home\AllExamples\Iterators\bin\Debug\netcoreapp3.1\Iterators.pdb
+C:\home\AllExamples\Iterators\obj\Debug\netcoreapp3.1\Iterators.AssemblyInfoInputs.cache
+C:\home\AllExamples\Iterators\obj\Debug\netcoreapp3.1\Iterators.AssemblyInfo.cs
+C:\home\AllExamples\Iterators\obj\Debug\netcoreapp3.1\Iterators.csproj.CoreCompileInputs.cache
+C:\home\AllExamples\Iterators\obj\Debug\netcoreapp3.1\Iterators.dll
+C:\home\AllExamples\Iterators\obj\Debug\netcoreapp3.1\Iterators.pdb
+C:\home\AllExamples\Iterators\obj\Debug\netcoreapp3.1\Iterators.genruntimeconfig.cache

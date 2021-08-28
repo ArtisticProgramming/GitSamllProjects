@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fIPlHrP99fMV8mcB6T7XqRdPptrgRMzMzYIziqvVOp0d1h4p6nCHZWv9Vw9zmFxCgb+O3i9O/wIWyyBurp/y+w==",
+  "success": true,
+  "projectFilePath": "C:\\home\\GitSamllProjects\\DotNet_AllExamples\\MediatR.Model\\MediatR.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jafar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jafar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

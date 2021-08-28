@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1o6EBp2xejSUAnIvEJTAe1uzYyEoKTVT+kxry0eP/+ablE7eLdatzgZcV7r0gE1VVQwhppO5h7QoRwkkdh6GfA==",
+  "success": true,
+  "projectFilePath": "C:\\home\\GitSamllProjects\\CodeNotePlusPlus\\CodeNotePlusPlus\\CodeNote.Domain\\CodeNote.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jafar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jafar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

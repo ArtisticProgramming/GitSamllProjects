@@ -1,0 +1,12 @@
+C:\home\AllExamples\DataStruc\bin\Debug\netcoreapp3.1\DataStruc.exe
+C:\home\AllExamples\DataStruc\bin\Debug\netcoreapp3.1\DataStruc.deps.json
+C:\home\AllExamples\DataStruc\bin\Debug\netcoreapp3.1\DataStruc.runtimeconfig.json
+C:\home\AllExamples\DataStruc\bin\Debug\netcoreapp3.1\DataStruc.runtimeconfig.dev.json
+C:\home\AllExamples\DataStruc\bin\Debug\netcoreapp3.1\DataStruc.dll
+C:\home\AllExamples\DataStruc\bin\Debug\netcoreapp3.1\DataStruc.pdb
+C:\home\AllExamples\DataStruc\obj\Debug\netcoreapp3.1\DataStruc.AssemblyInfoInputs.cache
+C:\home\AllExamples\DataStruc\obj\Debug\netcoreapp3.1\DataStruc.AssemblyInfo.cs
+C:\home\AllExamples\DataStruc\obj\Debug\netcoreapp3.1\DataStruc.csproj.CoreCompileInputs.cache
+C:\home\AllExamples\DataStruc\obj\Debug\netcoreapp3.1\DataStruc.dll
+C:\home\AllExamples\DataStruc\obj\Debug\netcoreapp3.1\DataStruc.pdb
+C:\home\AllExamples\DataStruc\obj\Debug\netcoreapp3.1\DataStruc.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\home\AllExamples\Event\bin\Debug\netcoreapp3.1\Event.exe
+C:\home\AllExamples\Event\bin\Debug\netcoreapp3.1\Event.deps.json
+C:\home\AllExamples\Event\bin\Debug\netcoreapp3.1\Event.runtimeconfig.json
+C:\home\AllExamples\Event\bin\Debug\netcoreapp3.1\Event.runtimeconfig.dev.json
+C:\home\AllExamples\Event\bin\Debug\netcoreapp3.1\Event.dll
+C:\home\AllExamples\Event\bin\Debug\netcoreapp3.1\Event.pdb
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.AssemblyInfoInputs.cache
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.AssemblyInfo.cs
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.csproj.CoreCompileInputs.cache
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.dll
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.pdb
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.genruntimeconfig.cache
+C:\home\AllExamples\Event\obj\Debug\netcoreapp3.1\Event.csprojAssemblyReference.cache

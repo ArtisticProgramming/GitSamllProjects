@@ -1,0 +1,10 @@
+C:\home\AllExamples\MediatR.Model\bin\Debug\netstandard2.0\MediatR.Model.deps.json
+C:\home\AllExamples\MediatR.Model\bin\Debug\netstandard2.0\MediatR.Model.dll
+C:\home\AllExamples\MediatR.Model\bin\Debug\netstandard2.0\MediatR.Model.pdb
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.csprojAssemblyReference.cache
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.AssemblyInfoInputs.cache
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.AssemblyInfo.cs
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.csproj.CoreCompileInputs.cache
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.dll
+C:\home\AllExamples\MediatR.Model\obj\Debug\netstandard2.0\MediatR.Model.pdb

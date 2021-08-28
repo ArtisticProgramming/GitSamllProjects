@@ -1,0 +1,14 @@
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\bin\Debug\netcoreapp3.1\Entry.exe
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\bin\Debug\netcoreapp3.1\Entry.deps.json
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\bin\Debug\netcoreapp3.1\Entry.runtimeconfig.json
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\bin\Debug\netcoreapp3.1\Entry.runtimeconfig.dev.json
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\bin\Debug\netcoreapp3.1\Entry.dll
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\bin\Debug\netcoreapp3.1\Entry.pdb
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.GeneratedMSBuildEditorConfig.editorconfig
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.AssemblyInfoInputs.cache
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.AssemblyInfo.cs
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.csproj.CoreCompileInputs.cache
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.dll
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.pdb
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.genruntimeconfig.cache
+C:\home\GitSamllProjects\DotNet_AllExamples\Entry\obj\Debug\netcoreapp3.1\Entry.csprojAssemblyReference.cache

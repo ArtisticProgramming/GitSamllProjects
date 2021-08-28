@@ -1,0 +1,14 @@
+C:\home\AllExamples\Thread\bin\Debug\netcoreapp3.1\Thread.exe
+C:\home\AllExamples\Thread\bin\Debug\netcoreapp3.1\Thread.deps.json
+C:\home\AllExamples\Thread\bin\Debug\netcoreapp3.1\Thread.runtimeconfig.json
+C:\home\AllExamples\Thread\bin\Debug\netcoreapp3.1\Thread.runtimeconfig.dev.json
+C:\home\AllExamples\Thread\bin\Debug\netcoreapp3.1\Thread.dll
+C:\home\AllExamples\Thread\bin\Debug\netcoreapp3.1\Thread.pdb
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.AssemblyInfoInputs.cache
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.AssemblyInfo.cs
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.csproj.CoreCompileInputs.cache
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.dll
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.pdb
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.genruntimeconfig.cache
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.csprojAssemblyReference.cache
+C:\home\AllExamples\Thread\obj\Debug\netcoreapp3.1\Thread.GeneratedMSBuildEditorConfig.editorconfig

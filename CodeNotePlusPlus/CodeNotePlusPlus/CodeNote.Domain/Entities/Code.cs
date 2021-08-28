@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CodeNote.Domain.ValueObjects
+namespace CodeNote.Domain.Entities
 {
-    public class Code 
+    public class Code
     {
     }
 }
